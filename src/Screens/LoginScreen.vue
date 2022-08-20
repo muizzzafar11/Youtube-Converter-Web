@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <p>Login Screen</p>
-        <Button @click="login">Login</Button>
+    <div class="text-center">
+        <h4>Login with Google to continue</h4>
+        <Button @click="login" class="btn btn-primary mt-5">Login</Button>
     </div>
 </template>
 
