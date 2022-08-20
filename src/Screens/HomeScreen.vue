@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div>
+        <div class="mb-3">
             <h5>Logged In as {{this.user?.displayName}} </h5>
             <div class="text-start row">
                 <div class="col">
@@ -11,9 +11,9 @@
         </div>
         <div class="row">
             <div class="col-sm-10">
-                <input v-model="link" type="text" class="form-control mt-5" id="inputLink" placeholder="Enter Link">
+                <input v-model="link" type="text" class="form-control mt-2" id="inputLink" placeholder="Enter Link">
             </div>
-            <button type="submit" class="col-sm-2 btn btn-primary mt-5" @click="sendLink">Download</button>
+            <button type="submit" class="col-sm-2 btn btn-primary mt-2" @click="sendLink">Download</button>
         </div>
     </div>
 </template>
